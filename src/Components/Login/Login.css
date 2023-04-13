@@ -1,0 +1,38 @@
+.data-submit-field h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: sans-serif;
+}.data-submit-field p {
+    font-weight: 400;
+    color:#000;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.form-control:focus {
+    background-color: transparent;
+    outline: 0;
+    box-shadow:unset;
+    border-color: #ced4da;
+}
+.btn-bg{
+    background: rgba(244, 128, 35, 1);
+}.btn-bg:hover{
+    background: rgba(244, 129, 35, 0.623);
+}.pt-lin {
+    padding-top: 5rem;
+}.check-w {
+    width: 7% !important;
+}form input[type='checkbox'] {
+    width: 1rem !important;
+}
+@media (max-width:576px){
+    .data-submit-field h1 {
+        font-size: .96rem !important;
+    }.data-submit-field p {
+        font-size: 0.9rem !important;
+    }form input {
+        width: 100% !important;
+    }form input {
+        width: 100% !important;
+    }
+}

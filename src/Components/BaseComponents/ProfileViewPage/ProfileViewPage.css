@@ -1,0 +1,19 @@
+.user-profile-post {
+    background: #545454;
+    color: rgb(255, 255, 255);
+}.btm-archive-section span{
+    color: #ff7e17;
+} div .user-profile-photo {
+    width: 6rem !important;
+    height: 6rem !important;
+    border-radius: 50%;
+}.middle-question-block {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (max-width: 768px) {
+}@media (max-width: 576px) {
+    .question-block {
+        padding: 1rem;
+    }
+}

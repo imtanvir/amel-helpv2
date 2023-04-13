@@ -1,0 +1,6 @@
+.form-floating {
+    margin-bottom: 1rem;
+}.form-floating input,.form-floating textarea {
+    border: 1px solid rgb(255, 146, 21);
+    outline: none;
+}

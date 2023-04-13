@@ -1,0 +1,29 @@
+#leftSideNavBar{
+    z-index: 99;
+}.tag-icon-left{
+        padding-right: 0 !important;
+        padding-left: .5rem;
+}a.btn.collapsed {
+    padding: 0;
+    text-align: left;
+}ul li.menu-item.qs-li-pl {
+    padding-left: 2rem !important;
+    text-align: left;
+}.qs-category a li {
+    font-size: .8rem;
+    font-weight: 600;
+}.card.card-body {
+    border: navajowhite;
+    padding:0;
+}.actv-b-0{
+    border: 0 !important;
+}
+@media (max-width:576px){
+    .menu-section ul h3 {
+        font-size: .7rem !important;
+    }.menu-section ul a {
+        font-size: .69rem;
+    }.qs-category a li {
+        font-size: .7rem;
+    }
+}

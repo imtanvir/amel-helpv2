@@ -1,0 +1,8 @@
+.blog-pen-clr {
+    color: #e47821 !important;
+}
+@media (max-width: 576px) {
+    .blog-write-btn-fs{
+        font-size: .9rem !important;
+    }
+}

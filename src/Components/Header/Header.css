@@ -1,0 +1,18 @@
+.btn-reg {
+    background: rgba(244, 128, 35, 1);
+}.btn-reg:hover {
+    background: rgba(244, 129, 35, 0.651);
+}
+.btn-log{
+    background: rgba(234, 234, 234, 1);
+}.btn-log:hover{
+    background: rgb(185, 185, 185);
+}
+@media (max-width:576px){
+    .site-header-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }.entry-btn a .btn {
+        font-size: .6rem;
+    }
+}

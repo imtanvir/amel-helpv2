@@ -1,0 +1,45 @@
+.user-profile-card {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}.card.card-body{
+    border-radius: 0 !important;
+}.card-img-ppics {
+    display: flex;
+    justify-content: center;
+}
+img.card-img-top {
+    width: 10rem !important;
+    height: 10rem !important;
+}p.card-text span {
+    color: #F48023;
+}.user-card {
+    width: 15rem;
+}
+@media (max-width: 991px) {
+    .user-card {
+        width: 25rem;
+        padding: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }.w-xsm {
+        width: 20% !important;
+        font-size: 1rem !important;
+        margin-top: 1rem;
+    }
+}@media (max-width: 767px) {
+    .w-xsm {
+        width: 25% !important;
+    }
+}@media (max-width: 576px) {
+    .w-xsm {
+        width: 46% !important;
+        font-size: .8rem !important;
+        margin-top: 1rem;
+    }.user-card {
+        width: 90%;
+    }img.card-img-top {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+}

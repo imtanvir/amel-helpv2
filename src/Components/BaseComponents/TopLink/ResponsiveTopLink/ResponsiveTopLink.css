@@ -1,0 +1,11 @@
+p.profile-photo {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    display: inline-block;
+}img.user-p-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}.resp-top-link {
+    background: #f48023d1;
+}

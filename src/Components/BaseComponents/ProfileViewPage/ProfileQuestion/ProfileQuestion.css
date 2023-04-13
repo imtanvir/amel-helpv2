@@ -1,0 +1,79 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0; 
+    padding-left: 0;
+}
+.nav-link {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin-right: .5rem;
+    color: rgba(128, 128, 128, 1);
+    background: rgb(234 234 234) !important;
+    border-radius: 1.5rem !important;
+    font-size: 13px;
+}.nav-pills .active {
+    color: #ffffff;
+    background-color: #0d6efd !important;
+}.nav.nav-pills {
+    padding-left: 22rem;
+}.middle-question-block {
+    overflow-y: scroll;
+}.qs-details h1 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: system-ui;
+}.qs-details p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sans-serif;
+}.qs-tag a button {
+    border-radius: .4rem !important;
+    background: rgba(234, 234, 234, 1);
+    padding: 0.2rem 1rem .2rem 1rem;
+    margin-right: .7rem;
+    font-size: 13px;
+}.middle-question-block {
+    overflow-y: scroll;
+    height: 90vh;
+    background-color: #e5e5e586;
+}.middle-question-block::-webkit-scrollbar {
+    width:0;
+}.user-details span:nth-child(2) {
+    font-size: 11px;
+}.top-link-section h1 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.top-link-section li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}.question-block {
+    padding: 1.5em;
+    border-radius: .4rem;
+    border: 1px solid #dddfe2;
+    background: #fff;
+}.left-menu-section {
+    padding-right: 2rem;
+}ul li.active {
+    background: rgba(252, 244, 236, 1);
+    color: rgba(244, 128, 35, 1);
+}ul.menu-items li {
+    padding: .7rem 0rem .7rem 2rem;
+    display: flex;
+    width: 20rem;
+    display: block;
+}.answer-action-btn button:nth-child(2) {
+    background-color: #f48023;
+}.answer-action-btn button {
+    border: none;
+}
+@media (max-width:576px){
+    .answer-action-btn button {
+        height: 1.8rem;
+        width: 5rem !important;
+        padding-top: .1rem;
+        padding-bottom: .1rem;
+    }.question-block {
+        padding: .5rem;
+    }
+}
